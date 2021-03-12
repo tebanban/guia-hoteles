@@ -1,0 +1,122 @@
+$yellow: #f5ff3b;
+ 	
+$blue: #007BFF;
+
+$gray: #343A40;
+
+   
+@mixin margenes($top, $bottom){margin-top: $top; margin-bottom: $bottom;}
+
+
+.jumbotron {
+	background-color: $yellow;
+	color: black;
+	@include margenes (50px, 10px);
+           }
+
+.banner {
+	
+	height: 150px;
+    margin-top: 15px;
+    @include margenes (0px, 15px);
+
+}
+
+ .btn-reserva {
+ 	
+ 	width: 100%;
+ 	@include margenes (5px, 5px);
+
+ }     
+
+ .btn-info {
+ 	
+ 	width: 100%;
+ 	@include margenes (5px, 5px);
+
+ }   
+
+ .btn-dark {
+ 	
+ 	width: 100%;
+ 	@include margenes (5px, 5px);
+
+ }     
+
+
+ .btn-enviar {
+ 	 background-color: $blue;
+ 	@include margenes (0px, 15px);
+
+ } 
+
+ .btn-oferta   {
+ 	background-color: $blue;
+ 	@include margenes (0px, 15px);
+
+ } 
+
+ .btn-colapse {
+ 	width: 100%;
+ 	@include margenes (10px, 10px);
+ }        
+
+footer{
+	background-color: #343A40;
+	color: white;
+	padding: 20px;
+
+  
+}
+
+.card-hotel{
+	flex: 1 150px;
+	padding: 5px 5px 5px 5px;
+	min-width: 250px;
+	@include margenes (10px, 0px);
+
+
+}
+
+.card-header{
+	text-align: center;
+}
+
+.card-img{
+	min-width: 100%;
+
+}
+
+
+.footer-adress-icon{
+	padding-right: 10px
+}
+
+.card-img-overlay{
+	color: white;
+
+}
+.tab-content{
+	padding-top: 10px;
+}
+
+
+
+.tooltip.top .tooltip-arrow{
+    bottom:0;
+    left:50%;
+    margin-left:-5px;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:5px solid #000
+}
+
+.carousel-caption{
+	background-color: $gray;
+	opacity: 85%;
+
+}
+
+.nosotros{
+	padding-bottom: 200px;
+}

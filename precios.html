@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css dist/precios.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="node_modules\open-iconic\font\css\open-iconic-bootstrap.min.css">
+    <!-- endbuild -->
+
+    <title>Guia Hoteles</title>
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  		<a class="navbar-brand" href="index.html">Guía de Hoteles</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		   <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarDropdown" class="dropdown-menu"  role="menu">
+		    <ul class="navbar-nav mr-auto">
+		      <a class="nav-item nav-link" href="./index.html">Home </a>
+		      <a class="nav-item active nav-link" href="./about.html">Nosotros</a>
+		      <a class="nav-item nav-link" href="#">Precios<span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="./contact.html">Contacto</a>
+		      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Términos y Condiciones</a>
+             </ul>
+          </div>
+    </nav>
+  		
+ 
+  	<div class="jumbotron">
+  		<a href="./index.html"><img src="./images/hotelescr.png" height="70px" href="./index.html"></a>
+  	</div>
+
+    <div class="container">
+       <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          
+            <li class="breadcrumb-item active" aria-current="page">Precios</li>
+          </ol>
+      </nav>
+            
+<!-- tabs firts section -->
+      <ul class="nav nav-pills" id="myTab" role="tablist" > 
+        <li class="nav-item">
+          <a class="nav-link " id="precios-tab" data-toggle="pill" href="#precios" role="tab" aria-controls="precios" aria-selected="true" >Precios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="tarjetas-tab" data-toggle="pill" href="#tarjetas" role="tab" aria-controls="precios" aria-selected="true">Tarjetas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="comentarios-tab" data-toggle="pill" href="#comentarios" role="tab" aria-controls="precios" aria-selected="true">Comentarios</a>
+        </li>
+      </ul>
+      
+<!-- tabs second section, content -->
+      <div class="tab-content" id="myTabcontent">
+       <div class="tab-pane fade show active" id="precios" role="tabpanel" aria-labelledby="precios-tab">
+          <div class="table-responsive ">
+            <table class="table table-striped" >
+              <thead class="table table-dark">
+                <th>Categoría</th>
+                <th>San José</th>
+                <th>Alajuela</th>
+                <th>Guanacaste</th>
+                <th>Heredia</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="oi oi-star"></span></td>
+                  <td>$100</td>
+                  <td>$200</td>
+                  <td>$300</td>
+                  <td>$400</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                  <td>$120</td>
+                  <td>250</td>
+                  <td>$340</td>
+                  <td>$500</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                  <td>$110</td>
+                  <td>$210</td>
+                  <td>$310</td>
+                  <td>$420</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                  <td>$200</td>
+                  <td>$330</td>
+                  <td>$470</td>
+                  <td>$600</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                  <td>$300</td>
+                  <td>$430</td>
+                  <td>$570</td>
+                  <td>$700</td>
+                </tr>
+              </tbody>
+            </table>
+           </div> 
+          </div>
+       
+<!-- tab-tarjetas starts here -->
+
+        <div class="tab-pane fade " id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab" >
+          <div class="accordion" id="accordionTarjetas">
+
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link " type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true">
+                    Tarjeta Básica
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseBasica" class="collapse" data-parent="#accordionTarjetas">
+                <div class="card-body">
+                Se puede reservar a 3 meses sin interés. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>              
+              </div>                        
+            </div> <!--  card ends-->
+
+            <div class="card" >
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link " type="button" data-toggle="collapse" data-target="#collapseVIP">
+                    Tarjeta VIP
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseVIP" class="collapse" data-parent="#accordionTarjetas">
+                <div class="card-body">
+                Descuentos en compras mayores a $100. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>              
+              </div>                        
+            </div> <!--  card ends-->
+
+            <div class="card" >
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link " type="button" data-toggle="collapse" data-target="#collapseBlack">
+                    Tarjeta Black
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseBlack" class="collapse" data-parent="#accordionTarjetas">
+                <div class="card-body">
+                Acceso a servicios premium como Valet Parquing gratis en Hoteles.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>              
+              </div>                        
+            </div> <!--  card ends-->
+          </div>
+        </div>
+       
+    
+        
+        <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+          <h5>Comentarios</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+
+      </div><!-- tab-content -->
+     </div>
+    </div> <!-- container last line-->
+    <div id="footer"></div> <!--Aqui va el footer-->
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js dist/precios.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js" ></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

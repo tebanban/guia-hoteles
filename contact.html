@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css dist/contact.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="node_modules\open-iconic\font\css\open-iconic-bootstrap.min.css">
+    <!-- endbuild -->
+
+    <title>Guia Hoteles</title>
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  		<a class="navbar-brand" href="index.html">Guía de Hoteles</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		   <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarDropdown" class="dropdown-menu"  role="menu">
+		    <ul class="navbar-nav mr-auto">
+		      <a class="nav-item nav-link" href="./index.html">Home</a>
+		      <a class="nav-item nav-link" href="./about.html">Nosotros</a>
+		      <a class="nav-item nav-link" href="./precios.html">Precios</a>
+		      <a class="nav-item nav-link active" href="#">Contacto<span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Términos y Condiciones</a>
+             </ul>
+          </div>
+    </nav>
+  		
+ 
+  	<div class="jumbotron">
+  		<a href="./index.html"><img src="./images/hotelescr.png" height="70px" href="./index.html"></a>
+  	</div>
+
+    <div class="container">
+       <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          
+            <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+          </ol>
+       </nav>
+         <h1>Déjame tu comentario...</h1>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-sm-6">
+                  <label for="nombre">Nombre</label> 
+                  <input type="form-text" class="form-control" id="nombre" placeholder="Ingrese su nombre aqui">
+                </div>
+                <div class="form-group col-sm-6">
+                  <label for="apellido">Apellido</label> 
+                  <input type="form-text" class="form-control" id="apellido" placeholder="Ingrese su apellido aqui">
+                </div>
+              </div>
+              <div class="form-group">
+                  <label for="nombre">Email</label> 
+                  <input type="form-text" class="form-control" id="email" placeholder="Ingrese su email aqui...">                  
+              </div>
+              <div class="form-row">  
+                <div class="form-group col-sm-9">
+                  <label for="domicilio">Domicilio</label> 
+                  <input type="form-text" class="form-control" id="domicilio" placeholder="Ingrese su domicio aqui">
+                </div>
+                <div class="form-group col-sm-3">
+                  <label for="provincia">Provincia</label>
+                  <select id="provincia" class="form-control"> <option selected>San José</option>
+                  <option >Heredia</option><option>Alajuela</option><option>Guanacaste</option></select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="comentario">Comentario</label>
+                <textarea class="form-control" id="comentario" rows="4"></textarea>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input"  id="gridCheck">
+                  <label for="gridCheck" class="form-check-label">Quiero que me contacten via email</label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-enviar" >Enviar</button>
+                       
+            </form>
+    	
+      </div> <!-- container -->
+      <div id="footer"></div> <!--Aqui va el footer-->
+   
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js dist/contact.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js" ></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
