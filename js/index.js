@@ -33,7 +33,9 @@ $(function (){
     });        
 
     
-	$("#footer").load("footer.html"); // carga el footer
+    $("#footer").load("../templates/footer.html"); // carga el footer
+    
+    
 		
 	  
 	
