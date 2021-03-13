@@ -33,7 +33,7 @@ $(function (){
     });        
 
     
-    $("#footer").load("../templates/footer.html"); // carga el footer
+    // $("#footer").load("../templates/footer.html"); // carga el footer, no en uso.
     
     
 		
